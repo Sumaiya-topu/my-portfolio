@@ -23,7 +23,7 @@ const Hero = () => {
           <h1 className="text-5xl font-bold text-white">Sumaia Akter</h1>
           <p className="mt-2">Full Stack Developer</p>
           <a href="Sumaia Akter.pdf" download="Sumaia Akter (1).pdf">
-            <button className="btn btn-accent mt-5 rounded-sm text-white font-bold px-10  transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 hover:bg-orange-500 duration-400">
+            <button className="btn btn-accent mt-5 rounded-sm text-white font-bold px-10  transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 hover:bg-rose-500 duration-400">
               Resume
             </button>
           </a>
