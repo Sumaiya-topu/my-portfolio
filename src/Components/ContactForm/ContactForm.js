@@ -10,18 +10,18 @@ function ContactForm() {
       <h1
         data-aos="zoom-in"
         data-aos-duration="3000"
-        className=" text-gray-300 text-3xl font-bold mt-10"
+        className=" text-gray-300 text-3xl font-bold mt-10 "
       >
         Contact Me
       </h1>
       <form
         data-aos="fade-up"
         data-aos-duration="3000"
-        className="lg:w-1/2 mx-auto"
+        className="lg:w-1/2 mx-auto border-t pt-10 mt-5"
         onSubmit={handleSubmit}
       >
         <label
-          className="block text-gray-300 text-start font-semibold mt-10 mb-2"
+          className="block text-gray-300 text-start font-semibold  mb-2"
           htmlFor="email"
         >
           Email Address

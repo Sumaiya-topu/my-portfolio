@@ -40,7 +40,7 @@ const Projects = () => {
         className=" grid grid-cols-1 lg:grid-cols-3 w-3/4 mx-auto my-32"
       >
         {projects.map((project) => (
-          <div className="p-4 hover:-translate-y-1 hover:scale-125 duration-300 mt-32">
+          <div className="p-4 hover:-translate-y-1 hover:scale-125 duration-300 lg:mt-32">
             <div className="flex justify-center">
               <div className=" bg-black mt-10 w-52 h-52 border rounded-full">
                 <img src={project.img} className=" w-full p-10 " alt="" />
