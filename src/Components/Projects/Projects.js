@@ -24,12 +24,24 @@ const Projects = () => {
 
   return (
     <div className="">
-      <hr className="w-3/4 mx-auto" />
-      <div className=" grid grid-cols-1 lg:grid-cols-3 w-3/4 mx-auto my-32">
+      <hr
+        data-aos="fade-up"
+        data-aos-easing="ease-out-cubic"
+        data-aos-duration="1000"
+        data-aos-anchor-placement="center-bottom"
+        className="w-3/4 mx-auto"
+      />
+      <div
+        data-aos="fade-up"
+        data-aos-easing="ease-out-cubic"
+        data-aos-duration="1000"
+        data-aos-anchor-placement="center-bottom"
+        className=" grid grid-cols-1 lg:grid-cols-3 w-3/4 mx-auto my-32"
+      >
         {projects.map((project) => (
-          <div className="p-4">
+          <div className="p-4 animate__animated hover:-translate-y-1 hover:scale-110 duration-300">
             <div className="flex justify-center">
-              <div className=" bg-black mt-10 w-52 h-52 border rounded-full border-slate-900">
+              <div className=" bg-black mt-10 w-52 h-52 border rounded-full">
                 <img src={project.img} className=" w-full p-10 " alt="" />
               </div>
             </div>
