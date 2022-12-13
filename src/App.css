@@ -1,5 +1,9 @@
 .App {
   text-align: center;
+  background: linear-gradient(to left, rgb(0, 0, 0),rgba(0, 0, 0, 0.722),rgba(23, 17, 17, 0.253), rgb(0, 0, 0)), url('./assets/bg-squre.avif');
+    background-repeat: no-repeat;
+    background-size: cover;
+   background-attachment: fixed;
 }
 
 .App-logo {

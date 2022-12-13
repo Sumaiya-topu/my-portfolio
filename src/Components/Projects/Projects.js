@@ -24,23 +24,23 @@ const Projects = () => {
   ];
 
   return (
-    <div className="projects h-screen">
+    <div className="projects lg:h-screen">
       <hr
         data-aos="fade-up"
         data-aos-easing="ease-out-cubic"
-        data-aos-duration="1000"
+        data-aos-duration="2000"
         data-aos-anchor-placement="center-bottom"
         className="w-3/4 mx-auto"
       />
       <div
         data-aos="fade-up"
         data-aos-easing="ease-out-cubic"
-        data-aos-duration="1000"
+        data-aos-duration="2000"
         data-aos-anchor-placement="center-bottom"
         className=" grid grid-cols-1 lg:grid-cols-3 w-3/4 mx-auto my-32"
       >
         {projects.map((project) => (
-          <div className="p-4 animate__animated hover:-translate-y-1 hover:scale-125 duration-300">
+          <div className="p-4 hover:-translate-y-1 hover:scale-125 duration-300 mt-32">
             <div className="flex justify-center">
               <div className=" bg-black mt-10 w-52 h-52 border rounded-full">
                 <img src={project.img} className=" w-full p-10 " alt="" />
@@ -53,6 +53,7 @@ const Projects = () => {
                 </h1>
               </a>
             </div>
+            <div className="divider"></div>
           </div>
         ))}
       </div>

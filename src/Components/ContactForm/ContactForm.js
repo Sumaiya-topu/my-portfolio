@@ -6,11 +6,22 @@ function ContactForm() {
     return <p>I'll get in touch shortly</p>;
   }
   return (
-    <div className="lg:w-3/4 bg-stone-300 mx-auto p-10 pb-20 mb-11">
-      <h1 className=" text-zinc-900 text-3xl font-bold mt-10">Contact Me</h1>
-      <form className="lg:w-1/2 mx-auto" onSubmit={handleSubmit}>
+    <div className="lg:w-3/4 bg-stone-300 bg-opacity-30 mx-auto p-10 pb-20 mb-11">
+      <h1
+        data-aos="zoom-in"
+        data-aos-duration="3000"
+        className=" text-gray-300 text-3xl font-bold mt-10"
+      >
+        Contact Me
+      </h1>
+      <form
+        data-aos="fade-up"
+        data-aos-duration="3000"
+        className="lg:w-1/2 mx-auto"
+        onSubmit={handleSubmit}
+      >
         <label
-          className="block text-zinc-900 text-start font-semibold mt-10 mb-2"
+          className="block text-gray-300 text-start font-semibold mt-10 mb-2"
           htmlFor="email"
         >
           Email Address
@@ -22,7 +33,7 @@ function ContactForm() {
           name="email"
         />
         <ValidationError prefix="Email" field="email" errors={state.errors} />
-        <label className="block text-zinc-900 text-start font-semibold mt-10 mb-2">
+        <label className="block text-gray-300 text-start font-semibold mt-10 mb-2">
           Your message
         </label>
         <textarea
