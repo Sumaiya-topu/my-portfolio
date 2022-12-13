@@ -32,6 +32,14 @@ const Projects = () => {
         data-aos-anchor-placement="center-bottom"
         className="w-3/4 mx-auto"
       />
+      <h1
+        data-aos="fade-up"
+        data-aos-easing="ease-out-cubic"
+        data-aos-duration="2000"
+        className="text-3xl lg:text-4xl text-slate-200 font-serif mt-28"
+      >
+        Check out some of my work
+      </h1>
       <div
         data-aos="fade-up"
         data-aos-easing="ease-out-cubic"
@@ -40,9 +48,9 @@ const Projects = () => {
         className=" grid grid-cols-1 lg:grid-cols-3 w-3/4 mx-auto my-32"
       >
         {projects.map((project) => (
-          <div className="p-4 hover:-translate-y-1 hover:scale-125 duration-300 lg:mt-32">
+          <div className=" hover:-translate-y-1 hover:scale-125 duration-300 lg:mt-32">
             <div className="flex justify-center">
-              <div className=" bg-black mt-10 w-52 h-52 border rounded-full">
+              <div className=" bg-black w-52 h-52 border rounded-full">
                 <img src={project.img} className=" w-full p-10 " alt="" />
               </div>
             </div>
