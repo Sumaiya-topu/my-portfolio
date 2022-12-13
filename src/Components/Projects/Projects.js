@@ -2,6 +2,7 @@ import React from "react";
 import painted_lady from "../../assets/painted loady logo-01 (1).png";
 import ipix from "../../assets/painted loady logo-02 (1).png";
 import code_camp from "../../assets/logo.png";
+import "./Projects.css";
 
 const Projects = () => {
   const projects = [
@@ -23,7 +24,7 @@ const Projects = () => {
   ];
 
   return (
-    <div className="">
+    <div className="projects h-screen">
       <hr
         data-aos="fade-up"
         data-aos-easing="ease-out-cubic"
