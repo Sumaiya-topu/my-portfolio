@@ -22,11 +22,14 @@ const About = () => {
           </span>
         </h1>
         <p className="mt-5">
-          A full stack developer who is mainly passionate about MERN. A
-          developer who is experienced in MongoDB, Express Js, React and Node
-          Js. As a javascript coder, it is so much fun to work as a full stack
-          developer. As a formar student of Computer Science and Engineering it
-          was a great opportunity to boost the skill set.{" "}
+          A versatile and passionate Full Stack Developer with a strong
+          foundation in cutting-edge technologies and a drive to create
+          meaningful and impactful web experiences. <br />
+          As a Full Stack Developer, I take a holistic approach to every
+          project. From crafting the user interface with elegant design elements
+          to architecting robust back-end systems, I believe in creating
+          seamless and user-friendly applications that resonate with users and
+          deliver exceptional performance.
         </p>
       </div>
     </div>

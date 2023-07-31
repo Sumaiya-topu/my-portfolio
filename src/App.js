@@ -7,15 +7,13 @@ import Footer from "./Components/Footer/Footer";
 import About from "./Components/About/About";
 import Skill from "./Components/Skills/Skill";
 
+import { RouterProvider } from "react-router-dom";
+import routes from "./routes";
+
 function App() {
   return (
     <div data-theme="business" className="App">
-      <Hero></Hero>
-      <About></About>
-      <Projects></Projects>
-      <Skill></Skill>
-      <ContactForm></ContactForm>
-      <Footer></Footer>
+      <RouterProvider router={routes}></RouterProvider>
     </div>
   );
 }

@@ -2,19 +2,32 @@ import React from "react";
 import "./Hero.css";
 import hero from "../../assets/hero.png";
 import { FaLinkedin, FaGithub, FaFacebookSquare } from "react-icons/fa";
+import { Link } from "react-router-dom";
+import { GiDiamondTrophy } from "react-icons/gi";
+import { Button, Tooltip } from "@material-tailwind/react";
 
 const Hero = () => {
   return (
     <div>
-      <div className=" text-right ">
+      <div className=" flex justify-end  items-end gap-5">
+        <Tooltip content="Acievements">
+          <Link to="/acievement" className="">
+            <GiDiamondTrophy
+              data-aos="zoom-in-left"
+              data-aos-easing="ease-out-cubic"
+              data-aos-duration="500"
+              className="text-4xl text-red-600 hover:text-white "
+            ></GiDiamondTrophy>
+          </Link>
+        </Tooltip>
         <a
           data-aos="zoom-in-left"
           data-aos-easing="ease-out-cubic"
-          data-aos-duration="3000"
+          data-aos-duration="1000"
           href="Sumaia Akter (1).pdf"
           download="Sumaia Akter (1).pdf"
         >
-          <button className="btn btn-sm btn-secondary  mr-5  mt-5 rounded-sm text-white font-bold px-10  transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-700">
+          <button className="btn btn-sm btn-secondary  mr-5  mt-5 rounded-sm text-white font-bold px-10  transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-400">
             Resume
           </button>
         </a>
