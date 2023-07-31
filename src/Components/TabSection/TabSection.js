@@ -9,9 +9,9 @@ import samurai2 from "../../assets/1671992009993.jpg";
 const TabSection = () => {
   return (
     <div>
-      <div className="flex justify-center w-3/4 mx-auto pt-28 gap-10 h-screen">
-        <div className="w-full flex items-center">
-          <div className="text-right w-full  ">
+      <div className="flex flex-wrap md:flex-nowrap  justify-center w-3/4 mx-auto pt-28 md:gap-10 h-screen">
+        <div className="w-full items-center">
+          <div className=" md:text-right w-full  ">
             <p>
               Successfully Completed the internship program <br /> as a{" "}
               <span className=" text-green-300 text-2xl font-serif">
@@ -29,13 +29,13 @@ const TabSection = () => {
       </div>
       <div className="bg-[#2629269b] pt-28">
         {" "}
-        <div className="w-1/2 mx-auto mb-5">
+        <div className="w-3/4 mx-auto mb-5">
           <h1 className="text-left text-2xl flex items-end gap-2 font-sans">
             Other Activities <AiOutlineDoubleRight></AiOutlineDoubleRight>
           </h1>
         </div>
         {/* slider start */}
-        <Carousel className="rounded-xl w-1/2 mx-auto">
+        <Carousel className="lg:rounded-xl  lg:w-3/4 mx-auto">
           <div className="relative h-full w-full">
             <img
               src={samurai1}
