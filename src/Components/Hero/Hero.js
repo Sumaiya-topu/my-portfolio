@@ -37,7 +37,7 @@ const Hero = () => {
           <div
             data-aos="fade-right"
             data-aos-easing="ease-out-cubic"
-            data-aos-duration="3000"
+            data-aos-duration="2000"
             className=" absolute -left-5 top-1/2 "
           >
             <a href="https://www.linkedin.com/in/sumaiya-akter-82b387193/">
