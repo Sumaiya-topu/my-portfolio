@@ -1,11 +1,17 @@
 import React from "react";
 import painted_lady from "../../assets/painted loady logo-01 (1).png";
-import ipix from "../../assets/painted loady logo-02 (1).png";
+import ipix from "../../assets/go-tutor.png";
+import gotutor from "../../assets/apple-touch-icon.png";
 import code_camp from "../../assets/logo.png";
 import "./Projects.css";
 
 const Projects = () => {
   const projects = [
+    {
+      img: gotutor,
+      title: "GO-Tutor",
+      live_link: "https://go-tutor.netlify.app/",
+    },
     {
       img: painted_lady,
       title: "Painted-Lady",
@@ -15,11 +21,6 @@ const Projects = () => {
       img: ipix,
       title: "i-Pix",
       live_link: "https://ipix-ad895.web.app/",
-    },
-    {
-      img: code_camp,
-      title: "Code-Camp",
-      live_link: "https://code-camp-85c2d.web.app/",
     },
   ];
 
@@ -38,7 +39,7 @@ const Projects = () => {
         data-aos-duration="2000"
         className="text-xl w-3/4 mx-auto text-start lg:text-2xl text-slate-200 font-sans mt-44"
       >
-        These are some of my baby projects I built last year.
+        Latest Projects_____________________
       </h1>
       <div
         data-aos="fade-up"

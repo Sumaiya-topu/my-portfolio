@@ -24,8 +24,8 @@ const Hero = () => {
           data-aos="zoom-in-left"
           data-aos-easing="ease-out-cubic"
           data-aos-duration="1000"
-          href="Sumaia Akter (1).pdf"
-          download="Sumaia Akter (1).pdf"
+          href="Sumaiya Akter CV.pdf"
+          download="Sumaiya Akter CV.pdf"
         >
           <button className="btn btn-sm btn-secondary  mr-5  mt-5 rounded-sm text-white font-bold px-10  transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-400">
             Resume
